@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/scholarships")
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "https://scholarship-app-frontend.vercel.app")
 public class ScholarshipController {
     
     private final ScholarshipService scholarshipService;

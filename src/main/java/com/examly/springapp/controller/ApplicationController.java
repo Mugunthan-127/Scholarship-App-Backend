@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/applications")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://scholarship-app-frontend.vercel.app")
 public class ApplicationController {
     
     private final ApplicationService applicationService;
